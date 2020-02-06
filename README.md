@@ -6,7 +6,7 @@
 
 ## Description
 
-_This is a program that will accept user input(Haiku) and calculates if their are the correct number of lines and correct syllable count per line._
+_This is a program that will accept user input(Haiku) and calculates if their are the correct number of lines and correct syllable count per line. DISCLAIMER: most of the code on haiku.js was found online and used for practice writing tests. All other content is original._
 
 ## Setup/Installation Requirements
 
