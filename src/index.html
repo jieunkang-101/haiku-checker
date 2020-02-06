@@ -1,11 +1,24 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Do You Haiku?</title>
-  </head>
 
-  <body>
+<head>
+  <title>Do You Haiku?</title>
+</head>
+
+<body>
+  <div class="container">
     <h1>Do You Haiku?</h1>
-  </body>
+    <form id="haikuInput">
+      <input class="form-control form-control-lg" type="text" placeholder="First Line" id="lineOne">
+      <input class="form-control form-control-lg" type="text" placeholder="Second Line" id="lineTwo">
+      <input class="form-control form-control-lg" type="text" placeholder="Third Line" id="lineThree">
+      <br>
+      <button id="haikuButton" type="submit" class="btn btn-warning">Submit!</button>
+    </form>
+    <div id="haikuOutput">
+      <p id="result"></p>
+    </div>
+  </div>
+</body>
 
 </html>
