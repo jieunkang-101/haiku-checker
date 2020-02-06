@@ -16,9 +16,9 @@ export class Haiku {
   checkline(sentence) {
     let count = 0;
     let words = sentence.split(" ");
-    
+    let _this = this;
     words.map(function(val, key){
-      count += syllables(val)
+      count += _this.syllables(val)
     });
     return count;
   }
